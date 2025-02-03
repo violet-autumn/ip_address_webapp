@@ -1,6 +1,6 @@
 ### About the App
 
-App is live at this link: 
+App is live at this link: https://ip-address-webapp.onrender.com/
 
 This is a Python based app which leverages Flask for web serving. It gives the user details about any given IP address. The web app leverages [IPQuery Docs API](https://ipquery.gitbook.io/ipquery-docs) to fetch the IP details. 
 
@@ -8,7 +8,8 @@ Following are a few snapshots:
 
 Landing page:
 
-<img width="982" alt="image" src="https://github.com/user-attachments/assets/29fdb97c-d4a2-4123-b46c-8db9d380a022" />
+<img width="728" alt="image" src="https://github.com/user-attachments/assets/92b883cf-a5b1-4ae3-8bf7-b7cbadbd78cd" />
+
 
 IP query result page:
 
