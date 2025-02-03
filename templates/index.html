@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get IP Details</title>
+    <link href="{{ url_for('static', filename='styles/style.css') }}" rel="stylesheet" />
+</head>
+<body>
+    <h1>Get IP Details</h1>
+    <br>
+
+    <form action="/fetch_ip">
+        <button type="submit">Fetch my IP</button>
+    </form>
+
+    <p> OR </p>
+
+    <form action="/get_ip">
+        <input type="text" name="ip_addr" id="ip_addr" placeholder="Enter an IP address">
+        <button type="submit">Get details</button>
+    </form>
+</body>
+</html>

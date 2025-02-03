@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Details</title>
+    <link href="{{ url_for('static', filename='styles/style.css') }}" rel="stylesheet" />
+</head>
+<body>
+    <h1>IP Details</h1>
+    <table>
+        <tr>
+            <td>IP address</td>
+            <td>{{  ip_address  }}</td>
+        </tr>
+        <tr>
+            <td>ISP</td>
+            <td>{{  isp  }}</td>
+        </tr>
+        <tr>
+            <td>State</td>
+            <td>{{  state  }}</td>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td>{{  country  }}</td>
+        </tr>
+        <tr>
+            <td>Using mobile connection?</td>
+            <td>{{  mobile  }}</td>
+        </tr>
+    </table>
+    <br>
+
+    <form action="/">
+        <button type="submit">Go back</button>
+    </form>
+</body>
+</html>
