@@ -2,7 +2,7 @@
 
 App is live at this link: 
 
-This is a Python based app which leverages Flask for web serving. It lets the user fetch the details for their own IP address or any given IP address. The web app leverages [IPQuery Docs API](https://ipquery.gitbook.io/ipquery-docs) to fetch the IP details. 
+This is a Python based app which leverages Flask for web serving. It gives the user details about any given IP address. The web app leverages [IPQuery Docs API](https://ipquery.gitbook.io/ipquery-docs) to fetch the IP details. 
 
 Following are a few snapshots:
 
